@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SJPL E-commerce Website</title>
+  <script src="https://kit.fontawesome.com/9b0a48adb4.js" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/> -->
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a href="#"><img src="img/pantone.png" class="logo" alt=""></a>
+    
+    <!-- ERROR - Coming in a list form instead of row -->
+    <nav id="navbar"> 
+      <ul>
+        <li><a class ="active" href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="login.html">Log In/Sign Up</a></li>
+        <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li><a href="#" id="close"><i class="fa-solid fa-xmark"></i></a></li>
+      </ul>
+    </nav>
+    <div class="mobile">
+      <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      <i id="bar" class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Super value deals</h2>
+    <h1>On all kinds of pantones</h1>
+    
+    <button>Buy Now!</button>
+  </section>
+
+  <!-- ERROR - CSS styling to the cart icon not working -->
+  <section class="product1 section-p1">
+    <h2>Featured Products</h2>
+    <p>Latest Pantones and Fashion Magazines</p>
+    <div class="pro-container">
+      <div class="pro">
+        <img src="img/p1.jpg" alt="Pantone Display Picture">
+        <div class="desc">
+          <h5>Textile Paper Pantone Fan</h5>
+          <h4>Rs 1000</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+      </div>
+
+      <div class="pro">
+        <img src="img/p2.jpg" alt="">
+        <div class="desc">
+          <h5>Textile Cotton Pantone Fan</h5>
+          <h4>Rs 2000</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+      </div>
+
+      <div class="pro">
+        <img src="img/p3.jpg" alt="">
+        <div class="desc">
+          <h5>CU Pantone Fan</h5>
+          <h4>Rs 4000</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+      </div>
+
+      <div class="pro">
+        <img src="img/p4.jpg" alt="">
+        <div class="desc">
+          <h5>Metallic Pantone Fan</h5>
+          <h4>Rs 3000</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner">
+    <h4>Find colours for all your needs!</h4>
+    <h2>Pantones available at best prices with <span>Upto 60% off</span></h2>
+    <button class="normal">Explore More</button>
+  </section>
+
+  <section class="mailinglist section-p1">
+    <div class="mailtext">
+      <h4>Sign up for our Mailing List</h4>
+      <p>Get latest updates on new products and <span>latest offers!</span></p>
+    </div>
+    <div class="form">
+      <input id="mailInput" type="text" placeholder="jondoe@gmail.com">
+      <button type="submit" id="signbtn" class="normal" onclick="myFunction()">Sign Up</button>
+    </div>
+  </section>
+  
+  <footer class="section-p1">
+    <div class="contact">
+      <h4>Contact</h4>
+      <p><strong>Address: </strong>G-52, Saket, New Delhi - 110017</p>
+      <p><strong>Phone: </strong>(+91) 99586 44886</p>
+      <p><strong>Hours: </strong> 10:00 - 18:30, Mon - Sat</p>
+    </div>
+    <div class="follow">
+      <h4>Follow Us</h4>
+      <div class="icon">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2022 | Super Journals Pvt Ltd</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
